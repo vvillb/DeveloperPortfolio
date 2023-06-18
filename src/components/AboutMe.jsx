@@ -90,8 +90,8 @@ const AboutMe = () => {
                 </Card>
             </Carousel> 
       </Grid>
-      <Grid item xs={12} sm={8}>
-        <Typography variant='h6' sx={{padding:{xs:0,md:'10%'}}} textAlign='justify'>
+      <Grid item xs={12} sm={8} sx={{padding:{xs:0,md:'10%'}}} >
+        <Typography variant='h6'  textAlign='justify' paddingBottom='10%'>
         What sets me apart? I am a relentless problem-solver, fueled by curiosity and the drive to create meaningful impact through technology. My background in industrial engineering and project management equips me with a unique perspective - I understand the bigger picture and the intricate details.
 
         In my pursuit to further grow in tech, I am eager to explore new horizons, especially  opportunities that allow me to contribute to a team while also expanding my own skill set.
@@ -104,13 +104,14 @@ const AboutMe = () => {
 
 
 
-        <Accordion>
+        <Accordion >
         <AccordionSummary
           expandIcon={<ExpandMoreIcon/>}
           aria-controls="panel1a-content"
           id="panel1a-header"
+          sx={{backgroundColor:'background.secondary'}}
         >
-          <Typography variant='h4'>
+          <Typography variant='h3'>
           Education
         </Typography>
         </AccordionSummary>
@@ -137,7 +138,7 @@ const AboutMe = () => {
           aria-controls="panel2a-content"
           id="panel2a-header"
         >
-          <Typography variant='h4'>
+          <Typography variant='h3'>
           Experience
         </Typography>
         </AccordionSummary>
