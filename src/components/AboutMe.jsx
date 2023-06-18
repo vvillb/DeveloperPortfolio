@@ -20,7 +20,7 @@ const AboutMe = () => {
                
                zIndex:'0'
             }}>
-                <Card sx={{   height:{xs:'30vh',sm:'45',md:'55',lg:'65vh'}, backgroundColor:'transparent',alignItems:'center',margin: 'auto'}}>
+                <Card sx={{   height:{xs:'60vh',lg:'65vh'}, backgroundColor:'transparent',alignItems:'center',margin: 'auto'}}>
                   <CardMedia
                   
                       component="img"
@@ -31,7 +31,7 @@ const AboutMe = () => {
                       width='100%'
                       />
                 </Card>
-                <Card sx={{   height:{xs:'30vh',sm:'45',md:'55',lg:'65vh'}, backgroundColor:'transparent',alignItems:'center',margin: 'auto'}}>
+                <Card sx={{   height:{xs:'60vh',lg:'65vh'}, backgroundColor:'transparent',alignItems:'center',margin: 'auto'}}>
                   <CardMedia
                   sx={{}}
                       component="img"
@@ -43,7 +43,7 @@ const AboutMe = () => {
                       />
                 </Card>
             
-                <Card sx={{  height:{xs:'30vh',sm:'45',md:'55',lg:'65vh'}, backgroundColor:'transparent',alignItems:'center',margin: 'auto'}}>
+                <Card sx={{  height:{xs:'60vh',lg:'65vh'}, backgroundColor:'transparent',alignItems:'center',margin: 'auto'}}>
                   <CardMedia
                       sx={{ }}
 
@@ -55,7 +55,7 @@ const AboutMe = () => {
                       width='100%'
                       />
                 </Card>
-                <Card sx={{   height:{xs:'30vh',sm:'45',md:'55',lg:'65vh'}, backgroundColor:'transparent',alignItems:'center',margin: 'auto'}}>
+                <Card sx={{   height:{xs:'60vh',lg:'65vh'}, backgroundColor:'transparent',alignItems:'center',margin: 'auto'}}>
                   <CardMedia
                   sx={{}}
                       component="img"
@@ -66,7 +66,7 @@ const AboutMe = () => {
                       width='100%'
                       />
                 </Card>
-                <Card sx={{   height:{xs:'30vh',sm:'45',md:'55',lg:'65vh'}, backgroundColor:'transparent',alignItems:'center',margin: 'auto'}}>
+                <Card sx={{   height:{xs:'60vh',lg:'65vh'}, backgroundColor:'transparent',alignItems:'center',margin: 'auto'}}>
                   <CardMedia
                   sx={{}}
                       component="img"
@@ -77,7 +77,7 @@ const AboutMe = () => {
                       width='100%'
                       />
                 </Card>
-                <Card sx={{   height:{xs:'30vh',sm:'45',md:'55',lg:'65vh'}, backgroundColor:'transparent',alignItems:'center',margin: 'auto'}}>
+                <Card sx={{   height:{xs:'60vh',lg:'65vh'}, backgroundColor:'transparent',alignItems:'center',margin: 'auto'}}>
                   <CardMedia
                   sx={{}}
                       component="img"
