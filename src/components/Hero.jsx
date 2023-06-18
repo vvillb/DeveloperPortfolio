@@ -1,5 +1,4 @@
 import { Card, CardMedia, Grid, Typography } from '@mui/material'
-import React from 'react'
 import profilePic from '../assets/photoVir.jpg'
 const Hero = () => {
   return (
