@@ -7,7 +7,7 @@ const Layout = ({children}) => {
   return (
     <>
     <Navbar/>
-    <Box>
+    <Box sx={{backgroundColor:'background.secondary'}}>
       {children}
     </Box>
     

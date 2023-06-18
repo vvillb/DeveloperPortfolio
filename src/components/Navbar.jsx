@@ -62,7 +62,7 @@ const drawer = (
           </Typography>
           <Box sx={{ display: { xs: 'none', sm: 'block',backgroundColor:'highlights.main' } }}>
             {navItems.map((item) => (
-              <Button key={item.id} sx={{ color: '#fff' }}>
+              <Button component="a" href={item.path}  key={item.id} sx={{ color: '#fff' }}>
                 {item.title}
               </Button>
             ))}
