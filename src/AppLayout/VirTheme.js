@@ -5,29 +5,29 @@ export const VirTheme=createTheme(
     {
         palette:{
             background:{
-                main:'',
-                secondary:''
+                main:'#fffdf0',
+                secondary:'#fafafa'
             },
             highlights:{
-                main:'',
-                secondary:''
+                main:'#cfa68f',
+                secondary:'#c4b2a7'
             }
         },
         typography:{
             h1:{
                 fontFamily: "'Karla' ,'Playfair Display'",
-                color:'#2f365f'
+                color:'#cfa68f'
             },
             h2:{
                 fontFamily:  "'Karla','Playfair Display'",
-                color:'#2f365f'
+                color:'#cfa68f'
             },
             h3:{
                 fontFamily:  "'Karla','Playfair Display'",
-                color:'#2f365f'
+                color:'#cfa68f'
             },h4:{
                 fontFamily:  "'Karla','Playfair Display'",
-                background:"#f7f1ed"
+                background:"#cfa68f"
             },
             h5:{
                 fontFamily: "'Inconsolata','Cormorant Garamond'"  
