@@ -23,7 +23,7 @@ const Hero = () => {
         </Card>
       </Grid>
       <Grid item xs={12} md={4}>
-        <Typography variant='body1'>
+        <Typography variant='h5'>
         Industrial Engineer with a Master&apos;s degree in Project Management. Specializing in Front End Web Development with React JS. I am curious, self-motivated, and ready for new challenges!
         </Typography>
       </Grid>

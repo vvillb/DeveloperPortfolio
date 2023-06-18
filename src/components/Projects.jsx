@@ -41,7 +41,7 @@ const Projects = () => {
         </Card>  
       </Grid>
 
-      <Grid item xs={12} onMouseDown={3}> 
+      <Grid item xs={12} md={3}> 
         <Card>
           <CardMedia
               component="img"
