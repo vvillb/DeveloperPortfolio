@@ -5,9 +5,10 @@ import MenuIcon from '@mui/icons-material/Menu';
 const drawerWidth = 240;
 const navItems = [
   { id: 1, title: 'About', path: '#about' },
-  { id: 2, title: 'Contact', path: '#contact' },
-  { id: 3, title: 'Sample Projects', path: '#sampleProjects' },
-  { id: 4, title: 'More', path: '#more' },
+  {id: 2, title: 'Sample Projects', path: '#sampleProjects' },
+  { id: 3, title: 'Contact', path: '#contact' },
+  
+  
 ];
 
 const  Navbar=()=> {
