@@ -1,4 +1,4 @@
-import { Accordion, AccordionDetails, AccordionSummary, Card, CardMedia, Divider, Grid, Typography } from '@mui/material'
+import { Accordion, AccordionDetails, AccordionSummary, Card, CardMedia, Grid,  Typography } from '@mui/material'
 import Carousel from 'react-material-ui-carousel'
 import foto1 from '../assets/positano.jpg'
 import foto2 from '../assets/alfajores.jpg'
@@ -7,6 +7,7 @@ import foto4 from '../assets/sevilla.jpg'
 import foto5 from '../assets/menorca.jpg'
 import foto6 from '../assets/LaptopMirroSelfie2.jpg'
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+
 
 
 const AboutMe = () => {
@@ -99,7 +100,7 @@ const AboutMe = () => {
         <br/>
         In my spare time, you&apos;ll find me immersed in a new book, trying out a new baking recipe, or planning my next adventure.
         <br/>
-        Whether it&apos;s a new project or a potential collaboration, I am always ready to chat. Feel free to get in touch!
+        Whether it&apos;s a new project or a potential collaboration, I am always ready to chat. Feel free to <Typography variant='h6'component='a' href='#contact' color='black' >get in touch!</Typography>
         </Typography>
 
       </Grid>
