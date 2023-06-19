@@ -20,8 +20,8 @@ const Projects = () => {
       </Grid>
 
 
-      <Grid item xs={12} md={3} > 
-        <Card sx={{height:'50vh'}}> 
+      <Grid item xs={12} md={6} lg={3} > 
+        <Card sx={{height:{xs:'auto',md:'60vh'}}}> 
           <CardMedia
               
               component="img"
@@ -46,8 +46,8 @@ const Projects = () => {
         </Card>  
       </Grid>
 
-      <Grid item xs={12} md={3}> 
-        <Card sx={{height:'50vh'}} >
+      <Grid item  xs={12} md={6} lg={3} > 
+        <Card sx={{height:{xs:'auto',md:'60vh'}}} >
           <CardMedia
           
               component="img"
@@ -76,8 +76,8 @@ const Projects = () => {
         </Card>  
       </Grid>
 
-      <Grid item xs={12} md={3}> 
-        <Card sx={{height:'50vh'}}>
+      <Grid item xs={12} md={6} lg={3} > 
+        <Card sx={{height:{xs:'auto',md:'60vh'}}}>
           <CardMedia
               component="img"
               loading="lazy" 
@@ -101,8 +101,8 @@ const Projects = () => {
         </Card>  
       </Grid>
 
-      <Grid item xs={12} md={3}> 
-        <Card sx={{height:'50vh'}}>
+      <Grid item xs={12} md={6} lg={3} > 
+        <Card sx={{height:{xs:'auto',md:'60vh'}}}>
           <CardMedia
               component="img"
               loading="lazy" 

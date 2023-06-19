@@ -1,5 +1,6 @@
 import { Grid, Link, Typography } from '@mui/material'
 import {Link as RouterLink} from 'react-router-dom'
+import EmailIcon from '@mui/icons-material/Email';
 
 const Contact = () => {
   return (
@@ -12,9 +13,10 @@ const Contact = () => {
       <Grid item xs={12} >
       
         <Link  component={RouterLink} to='mailto:virginiavt98@gmail.com' underline="none">
-           <Typography variant='h3' textAlign='center'>
-              email me
+           <Typography variant='h3' textAlign='center' alignContent='center'>
+              email me <EmailIcon fontSize='large'/>
           </Typography>
+          
         </Link>
       
       </Grid>
